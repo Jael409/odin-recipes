@@ -15,3 +15,35 @@ p{
     font-size: 18px;
     font-style: italic;
 }
+
+div.menu-recipes {
+    text-align: center;
+    padding: 20px;
+    margin: 12px;
+}
+
+div.pizza-photo {
+    width: 200px;
+    height: auto;
+    margin-top: 25px;
+    margin-left: 550px;
+}
+
+div.description {
+    text-align: center;
+    margin-top: 35px;
+}
+
+div.spaghetti-photo{
+    width: 200px;
+    height: auto;
+    margin-top: 25px;
+    margin-left: 600px;
+}
+
+div.empanadas-photo{
+    width: 200px;
+    height: auto;
+    margin-top: 25px;
+    margin-left: 700px;
+}
