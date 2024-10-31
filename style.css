@@ -16,7 +16,7 @@ p{
     font-style: italic;
 }
 
-div.menu-recipes {
+div.recipe1, .recipe2, .recipe3 {
     text-align: center;
     padding: 20px;
     margin: 12px;
