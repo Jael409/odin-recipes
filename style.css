@@ -40,6 +40,11 @@ a {
     font-size: large;
 }
 
+.frase {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 .recipes {
     width: 100%;
@@ -50,7 +55,7 @@ a {
 
 
 h2 {
-    background-color: pink;
+    background-color: rgb(135, 156, 150);
 }
 
 p{
@@ -58,36 +63,21 @@ p{
     font-style: italic;
 }
 
-div.recipe1, .recipe2, .recipe3 {
-    text-align: center;
-    padding: 20px;
-    margin: 12px;
+.empanadasbystep {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-div.pizza-photo {
-    width: 200px;
-    height: auto;
+.titleemp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    border-radius: 25px;
     margin-top: 25px;
-    margin-left: 550px;
-}
-
-div.description {
-    text-align: center;
-    margin-top: 35px;
-}
-
-div.spaghetti-photo{
-    width: 200px;
-    height: auto;
-    margin-top: 25px;
-    margin-left: 600px;
-}
-
-div.empanadas-photo{
-    width: 200px;
-    height: auto;
-    margin-top: 25px;
-    margin-left: 700px;
 }
 
 footer {
