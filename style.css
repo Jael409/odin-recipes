@@ -2,10 +2,52 @@ body {
     font-family: 'Times New Roman', Times, serif;
 }
 
-h1 {
-    text-align: center;
-    background-color: rgb(167, 212, 197);
+.navbar {
+    padding:  2rem;
 }
+
+.navbar-collapse {
+    align-items: center;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 767px) {
+    .navbar-brand {
+        display: none;
+    }
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.recetasmenu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+a {
+    outline: none;
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+    font-size: large;
+}
+
+
+.recipes {
+    width: 100%;
+    margin-top: 100px;
+    padding: 2rem;
+    background-color: rgb(118, 143, 135);
+}
+
 
 h2 {
     background-color: pink;
@@ -46,4 +88,10 @@ div.empanadas-photo{
     height: auto;
     margin-top: 25px;
     margin-left: 700px;
+}
+
+footer {
+    padding: 25px;
+    margin-top: 50px;
+    background-color: rgb(84, 102, 102);
 }
