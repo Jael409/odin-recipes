@@ -27,9 +27,8 @@ section {
 
 .recetasmenu {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
-    
 }
 
 a {
@@ -79,6 +78,18 @@ img {
     border-radius: 25px;
     margin-top: 25px;
 }
+
+@media only screen and (max-width: 768px) {
+    div {
+      width: 100%;
+    }
+  }
+
+  @media only screen and (min-width: 320px) {
+    .recetasmenu {
+      flex-wrap: wrap;
+    }
+  }
 
 footer {
     padding: 25px;
