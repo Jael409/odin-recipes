@@ -2,6 +2,10 @@ body {
     font-family: 'Times New Roman', Times, serif;
 }
 
+nav {
+    background-color: rgb(195, 211, 200);
+}
+
 .navbar {
     padding:  2rem;
 }
@@ -9,7 +13,9 @@ body {
 .navbar-collapse {
     align-items: center;
     justify-content: space-between;
+
 }
+
 
 @media screen and (max-width: 767px) {
     .navbar-brand {
@@ -17,11 +23,17 @@ body {
     }
 }
 
+
 section {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+}
+
+
+.card {
+    border: none;
     text-align: center;
 }
 
@@ -29,6 +41,7 @@ section {
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 82px;
 }
 
 a {
@@ -41,7 +54,37 @@ a {
 
 .frase {
     display: flex;
+    margin-left: 20px;
+    padding: 60px;
+}
+
+
+#recetasDest {
+    margin-top: 85px;
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
     align-items: center;
+}
+
+#recetasDest > h2 {
+    background-color:rgb(255, 255, 255);
+    font-size: 3rem;
+    margin-top: 50px;
+}
+
+.titleemp {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.titleemp > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
     justify-content: center;
 }
 
@@ -49,15 +92,15 @@ a {
     width: 100%;
     margin-top: 100px;
     padding: 2rem;
-    background-color: rgb(118, 143, 135);
+    background-color:  rgb(195, 211, 200);
 }
 
 
 h2 {
-    background-color: rgb(135, 156, 150);
+    background-color:  rgb(195, 211, 200);
 }
 
-p{
+p {
     font-size: 18px;
     font-style: italic;
 }
@@ -68,16 +111,12 @@ p{
     align-items: center;
 }
 
-.titleemp {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 
 img {
     border-radius: 25px;
     margin-top: 25px;
 }
+
 
 @media only screen and (max-width: 768px) {
     div {
@@ -94,5 +133,5 @@ img {
 footer {
     padding: 25px;
     margin-top: 50px;
-    background-color: rgb(84, 102, 102);
+    background-color:  rgb(195, 211, 200);
 }
