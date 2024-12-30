@@ -52,13 +52,6 @@ a {
     font-size: large;
 }
 
-.frase {
-    display: flex;
-    margin-left: 20px;
-    padding: 60px;
-    justify-items: center;
-}
-
 
 #recetasDest {
     margin-top: 85px;
@@ -130,6 +123,7 @@ img {
       flex-wrap: wrap;
     }
   }
+
 
 footer {
     padding: 25px;
