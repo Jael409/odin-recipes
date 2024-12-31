@@ -31,7 +31,7 @@ section {
     justify-content: center;
 }
 
-div > .shadow-lg {
+  #chefImage {
     box-shadow: 2px 5rem 3rem rgba(0, 0, 0, 0.175) !important;
 }
 
